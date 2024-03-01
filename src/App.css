@@ -1,0 +1,17 @@
+body {
+  margin: 5% 10% !important;
+}
+.popular-movies {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 1rem;
+  grid-row-gap: 2rem;
+
+}
+.popular-movies img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.popular-movies h2 {
+  font-size: .8rem;
+}

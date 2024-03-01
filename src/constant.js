@@ -1,0 +1,1 @@
+export const BASE_URL = `https://api.themoviedb.org/3/discover/movie?api_key=cb43d8e789fe997e8f71935951457b0b&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=`;
