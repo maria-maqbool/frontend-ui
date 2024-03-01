@@ -57,9 +57,7 @@ const App = () => {
     setPage(page+1);
   }
 
-  const prePage = () => {
-    setPage(page-1);
-  }
+
 
   console.log("PreviousPage: ", prePage );
 
@@ -72,7 +70,7 @@ const App = () => {
 
           <SideBar filterHandler={filterHandler} activeFilter={activeFilter} />
 
-          <HeroSection  filteredmovies={filteredmovies} pageHandler={pageHandler} prePage={prePage}/>
+          <HeroSection  filteredmovies={filteredmovies} pageHandler={pageHandler}/>
      
 
 
